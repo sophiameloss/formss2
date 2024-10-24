@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Encuesta de Satisfacción </h1>
+
+    <form action="#" method="post">
+     
+        <label for="nombre">Nombre completo:</label> 
+        <input type="text" id="Nombre" name="Nombre" required> <br> <br>
+   
+        <label for="correo"> Correo electrónico:</label>
+        <input type="email" id="correo" name="Correo" required> <br> <br>
+   
+        <label for="psw">Edad:</label>
+        <input type="number" id="Edad" name="Edad" required> <br> <br>
+   
+        <label for="Satisfacción">Nivel de satisfacción con el servicio</label>
+        <select name="pais" id="pais">
+            <option value="Excelente">Excelente</option>
+            <option value="Bueno">Bueno</option>
+            <option value="Regular">Regular</option>
+            <option value="Malo">Malo</option>
+        </select>
+   <br><br><br>
+        <label for="Frecuencia">¿Con que frecuencia utilizas nuestros servicios?</label> <br><br>
+        <input type="radio" id="Frecuencia" name="Diario" value="Diario">
+        <label for="Diario">Diario</label> <br>
+        <input type="radio" id="Frecuencia" name="Semanal" value="Semanal">
+        <label for="Semanal">Semanal</label><br>
+        <input type="radio" id="Frecuencia" name:"Mensual" value="Mensual">
+        <label for="Mensual">Mensual</label> <br>
+         <br> <br>
+        <label for="Servicios">¿Qué servicios has utilizado?</label> 
+        <br><br>
+        <input type="checkbox" id="soporte" name="Servicios" value="Soporte tecnico">
+        <label for="soporte">Soporte técnico</label> <br>
+        <input type="checkbox" id="consultoria" name="Servicios" value="Consultoria">
+        <label for="consultoria">Consultoria</label> <br>
+        <input type="checkbox" id="capacitacion" name="Servicios" value="Capacitacion">
+        <label for="capacitacion">Capacitación</label> <br>
+       
+         <br> 
+        <label for="sugerencias">Sugerencias para mejorar nuestros servicios:</label> <br> 
+        <textarea name="comentarios" id="Comentarios" cols="40" rows="4"></textarea> <br><br>
+   
+        <input type="submit" value="Enviar Encuesta">
+
+
+   
+   
+   
+   </form>
+   
+</body>
+</html>
